@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://assets.mixkit.co/videos/11758/11758-thumb-360-0.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+  }
+  
+  .menu-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f1c40f;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #e67e22;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .menu-columns {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 90px;
+    min-width: 300px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h3 {
+    color: #f1c40f;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .menu-item span:last-child {
+    color: #ecf0f1;
+  }
